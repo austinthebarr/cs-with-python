@@ -1,5 +1,6 @@
 num = 11
 isNeg = False
+result = ''
 
 if num < 0:
     num = abs(num)
@@ -13,4 +14,6 @@ while num > 0:
     num = num//2
 if isNeg:
     result = '-' + result
+
+print(result)
 
