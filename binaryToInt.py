@@ -1,4 +1,4 @@
-x = '1101'
+x = '11001'
 
 ans = 0
 count = 0
@@ -8,7 +8,7 @@ count = 0
 # 1 2 position
 # 1 3 postion
 
-for i in x[::-1]:
+for i in x:
     ans += int(i) * (2**count)
     count += 1
 
