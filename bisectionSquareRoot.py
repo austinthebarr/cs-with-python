@@ -1,4 +1,4 @@
-x = -25
+x = 24
 ab = abs(x)
 epsilon = .01
 numGuesses = 0
